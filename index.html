@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+    <title>Desafios do Vestibular</title>
+    <style>
+        body {
+            font-family: 'Kanit', sans-serif;
+        }
+        .passo {
+            display: none;
+            text-align: center;
+        }
+        .passo.ativo {
+            display: block;
+        }
+        .btn-proximo {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 15px 30px; 
+            margin: 10px; 
+            border-radius: 10px;
+            cursor: pointer;
+            display: inline-block; 
+            font-size: 18px; 
+        }
+        .btn-proximo:hover {
+            background-color: #0056b3;
+        }
+        .img-ita {
+            width: 50%;
+            max-width: 300px;
+            height: auto;
+            margin: 20px 0; 
+            display: block;
+            margin-left: auto;
+            margin-right: auto; 
+        }
+        .passo img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/ita.png" alt="Imagem ilustrativa" class="img-ita">
+            <img src="img/vestibular-comemora.png"
+            <p>Após meses de estudo intenso, João recebe a notícia de que passou no vestibular para a universidade dos seus sonhos. Animado e ansioso, ele se prepara para a nova etapa de sua vida. Qual será o próximo passo dele?</p>
+            <button class="btn-proximo" data-proximo="1">Preparar a mudança para a universidade</button>
+            <button class="btn-proximo" data-proximo="2">Celebrar com os amigos e familiares</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>João decide preparar a mudança para a universidade. Ele enfrenta desafios como encontrar um lugar para morar e se organizar com os documentos necessários. Em meio a isso, ele descobre um problema com a documentação.</p>
+            <button class="btn-proximo" data-proximo="3">Resolver o problema com a documentação</button>
+            <button class="btn-proximo" data-proximo="4">Buscar ajuda com amigos e familiares</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>João opta por celebrar com os amigos e familiares. Durante a festa, ele se diverte muito, mas também começa a se preocupar com os desafios que virão na universidade. No dia seguinte, ele decide começar a se preparar melhor para os estudos.</p>
+            <button class="btn-proximo" data-proximo="5">Começar a se preparar para a universidade</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>João resolve o problema com a documentação e consegue organizar tudo a tempo. No entanto, ele enfrenta o desafio de adaptar-se ao novo ambiente universitário e encontrar um equilíbrio entre os estudos e a vida social.</p>
+            <button class="btn-proximo" data-proximo="6">Adaptar-se ao novo ambiente</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>João busca ajuda com amigos e familiares e consegue resolver a situação. No entanto, ele se depara com a dificuldade de gerenciar seu tempo e manter a qualidade dos estudos, enquanto ainda se ajusta à vida universitária.</p>
+            <button class="btn-proximo" data-proximo="6">Adaptar-se ao novo ambiente</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>João começa a se preparar para a universidade e se depara com muitos desafios, como novos conteúdos e métodos de estudo. Apesar das dificuldades iniciais, ele se esforça para superar os obstáculos e se adapta ao novo ritmo.</p>
+            <button class="btn-proximo" data-proximo="7">Continuar se esforçando para se adaptar</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>João se adapta ao novo ambiente universitário e aprende a gerenciar melhor seu tempo. Ele enfrenta desafios, mas encontra formas de lidar com eles, equilibrando os estudos e a vida social, e começa a se sentir mais confiante.</p>
+            <button class="btn-proximo" data-proximo="8">Celebrar as conquistas e desafios superados</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>João continua se esforçando e enfrenta novas dificuldades. Contudo, ele se mantém motivado e busca apoio quando necessário. A perseverança o ajuda a superar os desafios e a se destacar em seus estudos.</p>
+            <button class="btn-proximo" data-proximo="8">Celebrar as conquistas e desafios superados</button>
+        </div>
+        <div class="passo" id="passo-8">
+           
+            <p>João celebra suas conquistas e os desafios superados ao longo do caminho. Ele percebe o quanto cresceu e aprendeu com as experiências vividas e está pronto para enfrentar o futuro com confiança e determinação.</p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+body {
+    background-color: #3a0a7a; /* Um tom de roxo mais vibrante e envolvente */
+    color: #f0f0f0; /* Um tom claro de cinza para bom contraste com o fundo escuro */
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajuste para ocupar toda a altura da viewport */
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: #6a1b9a; /* Roxo mais claro e vibrante */
+    color: #ffffff; /* Cor branca para o texto dos botões */
+    border: none;
+    border-radius: 5px; /* Bordas arredondadas para um toque mais moderno */
+    padding: 10px 20px; /* Espaçamento interno mais confortável */
+    font-size: 16px; /* Tamanho de fonte adequado */
+    cursor: pointer; /* Mudar o cursor ao passar sobre o botão */
+    transition: background-color 0.3s ease; /* Transição suave na cor de fundo */
+}
+
+button:hover {
+    background-color: #8e24aa; /* Cor mais clara no hover */
+}
+
+.passo {
+    display: none;
+    color: #f0f0f0; /* Garantir que o texto dentro de .passo seja legível */
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+    padding: 20px; /* Adiciona um pouco de espaço ao redor do conteúdo */
+    background: rgba(0, 0, 0, 0.5); /* Adiciona um fundo semi-transparente para destacar o conteúdo */
+    border-radius: 10px; /* Bordas arredondadas para um visual mais suave */
+}
+
+img {
+    max-width: 100%; /* Ajusta para ocupar toda a largura disponível */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 10px; /* Bordas arredondadas nas imagens */
+}
